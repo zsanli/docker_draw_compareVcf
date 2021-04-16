@@ -1,0 +1,6 @@
+FROM compare_vcf_base:v0.1 
+LABEL maintainer="zhi.zhang@lns.etat.lu"
+USER   velona
+WORKDIR /home/velona
+COPY ./draw_comparisonVcf.py  /home/velona/
+CMD ["bash"] 

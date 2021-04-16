@@ -1,0 +1,3 @@
+docker run  --rm   -v  /mnt/gen_bioinfinternal:/mnt/gen_bioinfinternal -v  /mnt/gen_bioinfassets:/mnt/gen_bioinfassets -v  /mnt/gen_bioinfdata:/mnt/gen_bioinfdata  -it compare_vcf:v0.1 python draw_comparisonVcf.py 0 -i /mnt/gen_bioinfdata/zhi/2021_3_11_Arthur/14_trio_wes_comparison_result/14_comparison/dijex3471_comp/dijex3471_comp.summary.csv
+
+
