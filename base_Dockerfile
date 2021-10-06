@@ -16,5 +16,6 @@ VOLUME  /mnt/gen_bioinfinternal
 #RUN pip install pandas,nump,seaborn  --user
 #USER velona
 COPY .  /home/velona/
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 CMD ["bash"] 
